@@ -1,0 +1,119 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.company,subdivisions:"
+msgid "Subdivisions"
+msgstr "Subdivisiones"
+
+msgctxt "field:company.subdivision,active:"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "field:company.subdivision,address:"
+msgid "Address"
+msgstr "Dirección"
+
+msgctxt "field:company.subdivision,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:company.subdivision,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:company.subdivision,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:company.subdivision,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:company.subdivision,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:company.subdivision,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:company.subdivision,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:company.subdivision,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:company.subdivision-res.user,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:company.subdivision-res.user,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:company.subdivision-res.user,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:company.subdivision-res.user,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:company.subdivision-res.user,subdivision:"
+msgid "Subdivision"
+msgstr "Subdivisión"
+
+msgctxt "field:company.subdivision-res.user,user:"
+msgid "User"
+msgstr "Usuario"
+
+msgctxt "field:company.subdivision-res.user,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:company.subdivision-res.user,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:res.user,subdivision:"
+msgid "Subdivision"
+msgstr "Subdivisión"
+
+msgctxt "field:res.user,subdivisions:"
+msgid "Subdivisions"
+msgstr "Subdivisiones"
+
+msgctxt "model:company.subdivision,name:"
+msgid "Company Subdivision"
+msgstr "Subdivisión empresa"
+
+msgctxt "model:company.subdivision-res.user,name:"
+msgid "Company Subdivision - Res User"
+msgstr "Subdivisión empresa - Usuario"
+
+msgctxt "model:ir.action,name:act_company_subdivision_form"
+msgid "Company Subdivision"
+msgstr "Subdivisión empresa"
+
+msgctxt "model:ir.ui.menu,name:menu_company_subdivision_form"
+msgid "Subdivision"
+msgstr "Subdivisión"
+
+msgctxt "view:company.company:"
+msgid "Subdivisions"
+msgstr "Subdivisiones"
+
+msgctxt "view:company.subdivision:"
+msgid "Company Subdivision"
+msgstr "Subdivisión empresa"
+
+msgctxt "view:company.subdivision:"
+msgid "Company Subdivisions"
+msgstr "Subdivisiones empresa"
+
+msgctxt "view:res.user:"
+msgid "Subdivisions"
+msgstr "Subdivisiones"
