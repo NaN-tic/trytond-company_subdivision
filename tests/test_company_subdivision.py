@@ -1,29 +1,18 @@
-#!/usr/bin/env python
-# This file is part company_subdivision module for Tryton.
-# The COPYRIGHT file at the top level of this repository contains
-# the full copyright notices and license terms.
+# This file is part of the company_subdivision module for Tryton.
+# The COPYRIGHT file at the top level of this repository contains the full
+# copyright notices and license terms.
 import unittest
 import trytond.tests.test_tryton
-from trytond.tests.test_tryton import test_view, test_depends
+from trytond.tests.test_tryton import ModuleTestCase
 
 
-class CompanySubdivisionTestCase(unittest.TestCase):
+class CompanySubdivisionTestCase(ModuleTestCase):
     'Test Company Subdivision module'
-
-    def setUp(self):
-        trytond.tests.test_tryton.install_module('company_subdivision')
-
-    def test0005views(self):
-        'Test views'
-        test_view('company_subdivision')
-
-    def test0006depends(self):
-        'Test depends'
-        test_depends()
+    module = 'company_subdivision'
 
 
 def suite():
     suite = trytond.tests.test_tryton.suite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-            CompanySubdivisionTestCase))
+        CompanySubdivisionTestCase))
     return suite
