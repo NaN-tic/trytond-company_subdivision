@@ -7,7 +7,6 @@ from trytond.pyson import If, Eval
 from trytond.transaction import Transaction
 
 __all__ = ['Company', 'CompanySubdivision', 'CompanySubdivisionResUser']
-__metaclass__ = PoolMeta
 
 STATES = {
     'readonly': ~Eval('active', True),
@@ -16,6 +15,7 @@ DEPENDS = ['active']
 
 
 class Company:
+    __metaclass__ = PoolMeta
     __name__ = 'company.company'
     subdivisions = fields.One2Many('company.subdivision', 'company',
         'Subdivisions')
